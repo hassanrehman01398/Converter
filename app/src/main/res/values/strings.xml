@@ -1,0 +1,139 @@
+<resources>
+
+    <string-array name="profiles">
+
+        <item>Currency</item>
+        <item>Weight</item>
+        <item>Length</item>
+        <item>Temperature</item>
+    </string-array>
+    <string-array name="unitsWeight">
+
+        <item>Pounds</item>
+        <item>Grams</item>
+        <item>Kilograms</item>
+        <item>Ounces</item>
+    </string-array>
+    <string-array name="unitsWeightValues">
+        <item>2.204622622</item>
+
+        <item>1000</item>
+        <item>1</item>
+        <item>32.15073971</item>
+
+    </string-array>
+    <string-array name="unitsLength">
+        <item>Mile</item>
+        <item>Meter</item>
+        <item>Centimeter</item>
+        <item>Inch</item>
+        <item>Feet</item>
+        <item>Kilometer</item>
+    </string-array>
+    <string-array name="unitsLengthValues">
+        <item>1</item>
+        <item>1609.34</item>
+        <item>160934</item>
+        <item>63360</item>
+        <item>5280</item>
+        <item>1.60934</item>
+    </string-array>
+    <string-array name="unitsVolume">
+        <item>Liter</item>
+        <item>Milliliter</item>
+        <item>US Gal</item>
+        <item>US fl oz</item>
+    </string-array>
+
+    <string-array name="unitsCurrency">
+        <item>USD</item>
+        <item>INR </item>
+        <item>AUD</item>
+        <item>CAD</item>
+        <item>EUR</item>
+    </string-array>
+
+    <string-array name="currency_options">
+        <item>USD</item>
+        <item>INR </item>
+        <item>AUD</item>
+        <item>CAD</item>
+        <item>EUR</item>
+
+    </string-array>
+    <string-array name="unitsCurrencyValues">
+        <item>1</item>
+        <item>75.63 </item>
+        <item>1.46</item>
+        <item>1.37</item>
+        <item>0.89</item>
+
+    </string-array>
+    <string-array name="unitsVolumeValues">
+        <item>1</item>
+        <item>1000</item>
+        <item>0.2464172052</item>
+        <item>33.8140227</item>
+    </string-array>
+    <string-array name="unitsSpeed">
+        <item>km/h</item>
+        <item>mile/h</item>
+        <item>knot</item>
+        <item>ft/s</item>
+        <item>m/s</item>
+    </string-array>
+    <string-array name="unitsSpeedValues">
+        <item>3.6</item>
+        <item>2.236936292</item>
+        <item>1.943844492</item>
+        <item>3.280839895</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="unitsTemperature">
+        <item>Fahrenheit</item>
+
+        <item>Celcius</item>
+        <item>Kelvin</item>
+
+
+    </string-array>
+    <string-array name="unitsTemperatureValues">
+        <item>1.8</item>
+
+        <item>1</item>
+
+        <item>1</item>
+    </string-array>
+    <string-array name="unitsTemperatureBase">
+        <item>40</item>
+    </string-array>
+
+    <string name="app_name">My Unit Converter</string>
+    <string name="action_settings">Settings</string>
+    <string name="titleTextString">Unit Converter</string>
+    <string name="subtitleTextString">What would you like to convert today?</string>
+    <string name="txtBaseUnit">I\'d like to convert</string>
+    <string name="txtInto">into</string>
+    <string name="btnConvert">Convert</string>
+    <string name="defaultResult">Please enter a number, select your units and tap \'Convert\'</string>
+    <string name="inputHint">Please enter a number</string>
+    <string name="isEqualTo">is equal to</string>
+    <string name="conversionMsgBoxTitle">Conversion</string>
+    <string name="noticeMsgBoxTitle">Oops!</string>
+    <string name="noNumberError">You did not enter a number to convert... Did you forget? </string>
+    <string name="errorMsgBoxTitle">Error</string>
+    <string name="unitsAndOrValuesNotFoundError">"The app could not find the units and/or values of a profile listed in strings.xml. The app will now exit."</string>
+    <string name="unitsAndUnitValuesDontMatchError">"The number of units and unit values provided in strings.xml don\'t match. The app will now exit."</string>
+    <string name="nonParsableUnitValueError">"There was an incorrect unit value found in strings.xml. The app will now exit."</string>
+    <string name="notEnoughUnitsError">"There was a profile found in strings.xml with less than 2 units. This is not supported. The app will now exit."</string>
+    <string name="msgBoxCloseButtonTitle">Close</string>
+        <string name="convertText">Convert</string>
+        <string name="toCTA">↓</string>
+        <string name="fromHint">Enter Amount</string>
+        <string name="toHint">Press Convert</string>
+
+        <string name="title_activity_splash">SplashActivity</string>
+        <string name="dummy_button">Dummy Button</string>
+        <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>
